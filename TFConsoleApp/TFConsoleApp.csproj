@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MyApp">
+      <HintPath>..\..\..\testField\testField\MyApp\bin\Debug\net6.0\MyApp.dll</HintPath>
+    </Reference>
+    <Reference Include="MyApp.ServiceInterface">
+      <HintPath>..\..\..\testField\testField\MyApp\bin\Debug\net6.0\MyApp.ServiceInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="MyApp.ServiceModel">
+      <HintPath>..\..\..\testField\testField\MyApp\bin\Debug\net6.0\MyApp.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack">
+      <HintPath>..\..\..\testField\testField\MyApp\bin\Debug\net6.0\ServiceStack.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Client">
+      <HintPath>..\..\..\testField\testField\MyApp\bin\Debug\net6.0\ServiceStack.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\..\..\testField\testField\MyApp\bin\Debug\net6.0\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\..\..\testField\testField\MyApp\bin\Debug\net6.0\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\..\..\testField\testField\MyApp\bin\Debug\net6.0\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\testField\testField\MyApp\bin\Debug\net6.0\System.Data.SQLite.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
